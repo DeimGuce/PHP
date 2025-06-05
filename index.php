@@ -130,10 +130,10 @@ Confirm Password: <input type="password" name= "cpassword" value="<?php echo $cp
 
 <hr>
 <?php
-$Prinz = "Prinz";
+$Paul = "Paul";
 $DM = "DM";
-$Kier = "Kier";
-$name = array("Prinz", "DM", "Kier");
+$Rey = "Rey";
+$name = array("Paul", "DM", "Rey");
 
 foreach($name as $display_names){
     echo $display_names. "<br>";
